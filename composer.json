@@ -2,6 +2,7 @@
     "name": "ammezie/paystack-laravel",
     "description": "Laravel 5 Package for Paystack",
     "type": "laravel",
+    "keywords": ["php","github", "laravel","Open Source","payments", "subscription", "paystack", "paystack.co","laravel 5"],
     "require": {
         "mabiola/paystack-php-lib": "^1.0"
     },
@@ -17,5 +18,10 @@
             "email": "meziemichael@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Ammezie\\Paystack\\": "src/"
+        }
+    }
 }
