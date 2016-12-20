@@ -29,11 +29,15 @@ class PaystackServiceProvider extends ServiceProvider
         $this->app->singleton('paystack-laravel', function($app) {
             $config = $app['config']->get('paystack');
             
-            if(!$config){
-                throw new \RuntimeException('Missing Paystack configuration. Please run `php artisan vendor:publish`');
+            if (! $config) {
+                throw new \RuntimeException('Missing Paystack configuration.');
             }
 
-            return Paystack::make($config['secret_key']);
+            if ($config['paystack_mode'] == 'test') {
+                return Paystack::make($config['test_secret_key']);
+            }
+
+            return Paystack::make($config['live_secret_key']);
         });
 
     }
