@@ -44,4 +44,4 @@ You can use the facade:
 
     Paystack::startOneTimeTransaction('10000', 'me@example.com');
 
-For more information on using this package, see [](https://github.com/MalikAbiola/paystack-php-lib) repository.
+For more information on using this package, see [https://github.com/MalikAbiola/paystack-php-lib](https://github.com/MalikAbiola/paystack-php-lib) repository.
