@@ -12,7 +12,7 @@ This is a Laravel 5 wrapper for [MalikAbiola Paystack Lib](https://github.com/Ma
 Add the following to your `composer.json` file
 
     "mabiola/paystack-php-lib" : "~1.0"
-    "ammezie/paystack-laravel" : "~1.0"
+    "ammezie/paystack-laravel" : "1.0.*"
 
 and run `composer install` or `composer update`.
 
