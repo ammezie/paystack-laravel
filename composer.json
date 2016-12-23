@@ -4,7 +4,8 @@
     "type": "laravel",
     "keywords": ["php","github", "laravel","Open Source","payments", "subscription", "paystack", "paystack.co","laravel 5"],
     "require": {
-        "mabiola/paystack-php-lib": "^1.0"
+        "mabiola/paystack-php-lib": "^1.0",
+        "satooshi/php-coveralls": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
