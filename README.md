@@ -4,7 +4,7 @@ This is a Laravel 5 wrapper for [MalikAbiola Paystack Lib](https://github.com/Ma
 
 ## Requirements
 
- - PHP 5.5+
+ - PHP 5.6+
  - [Composer](https://getcomposer.org/doc/00-intro.md "Composer")
 
 ## Installation
