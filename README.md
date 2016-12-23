@@ -1,6 +1,7 @@
 # Paystack Laravel
 
 [![Build Status](https://travis-ci.org/ammezie/paystack-laravel.svg?branch=master)](https://travis-ci.org/ammezie/paystack-laravel)
+[![Packagist](https://img.shields.io/packagist/dt/ammezie/paystack-laravel.svg?style=flat-square)](https://packagist.org/packages/ammezie/paystack-laravel)
 
 This is a Laravel 5 wrapper for [MalikAbiola Paystack Lib](https://github.com/MalikAbiola/paystack-php-lib).
 
