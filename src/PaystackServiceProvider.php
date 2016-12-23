@@ -26,10 +26,10 @@ class PaystackServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('paystack-laravel', function($app) {
+        $this->app->singleton('paystack-laravel', function ($app) {
             $config = $app['config']->get('paystack');
-            
-            if (! $config) {
+
+            if (!$config) {
                 throw new \RuntimeException('Missing Paystack configuration.');
             }
 
@@ -39,13 +39,13 @@ class PaystackServiceProvider extends ServiceProvider
 
             return Paystack::make($config['live_secret_key']);
         });
-
     }
 
-     /**
-    * Get the services provided by the provider
-    * @return array
-    */
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
     public function provides()
     {
         return ['paystack-laravel'];

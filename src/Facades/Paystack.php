@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Ammezie\Paystack\Facades;
 
