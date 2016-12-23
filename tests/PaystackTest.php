@@ -6,18 +6,16 @@ use PHPUnit_Framework_TestCase;
 
 class PaystackTest extends PHPUnit_Framework_TestCase
 {
-	public function setUp()
-	{
-		
-	}
+    public function setUp()
+    {
+    }
 
-	public function testException()
-	{
-		$this->assertTrue(true);
-	}
+    public function testException()
+    {
+        $this->assertTrue(true);
+    }
 
-	public function tearDown()
-	{
-		
-	}
+    public function tearDown()
+    {
+    }
 }
