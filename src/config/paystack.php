@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'paystack_mode' => env('PAYSTACK_MODE', 'test'),
+	'paystack_mode' => getenv('PAYSTACK_MODE', 'test'),
 
 	/*
     |--------------------------------------------------------------------------
@@ -24,9 +24,9 @@ return [
     |
     */	
 
-    'test_public_key' => env('PAYSTACK_TEST_PUBLIC_KEY', ''),
+    'test_public_key' => getenv('PAYSTACK_TEST_PUBLIC_KEY', ''),
 
-    'test_secret_key' => env('PAYSTACK_TEST_SECRET_KEY', ''),
+    'test_secret_key' => getenv('PAYSTACK_TEST_SECRET_KEY', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -37,8 +37,8 @@ return [
     |
     */	
 
-	'live_public_key' => env('PAYSTACK_LIVE_PUBLIC_KEY', ''),
+	'live_public_key' => getenv('PAYSTACK_LIVE_PUBLIC_KEY', ''),
 
-    'live_secret_key' => env('PAYSTACK_LIVE_SECRET_KEY', ''),
+    'live_secret_key' => getenv('PAYSTACK_LIVE_SECRET_KEY', ''),
 
 ];
