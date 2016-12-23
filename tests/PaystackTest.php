@@ -1,8 +1,10 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
+namespace Ammezie\Paystack\Tests;
 
-class PaystackTest extends TestCase
+use PHPUnit_Framework_TestCase;
+
+class PaystackTest extends PHPUnit_Framework_TestCase
 {
 	public function setUp()
 	{
