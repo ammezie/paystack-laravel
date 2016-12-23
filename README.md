@@ -1,5 +1,6 @@
 # Paystack Laravel
 
+[![Packagist](https://img.shields.io/packagist/l/ammezie/paystack-laravel.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/ammezie/paystack-laravel.svg?branch=master)](https://travis-ci.org/ammezie/paystack-laravel)
 [![Packagist](https://img.shields.io/packagist/dt/ammezie/paystack-laravel.svg?style=flat-square)](https://packagist.org/packages/ammezie/paystack-laravel)
 
