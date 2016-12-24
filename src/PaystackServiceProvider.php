@@ -15,7 +15,7 @@ class PaystackServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/paystack.php' => config_path('paystack-laravel.php'),
+            __DIR__.'/config/paystack.php' => config_path('paystack-laravel.php'),
         ]);
     }
 
