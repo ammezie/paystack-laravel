@@ -2,8 +2,8 @@
 
 namespace Ammezie\Paystack\Tests;
 
-use Mockery as m;
 use Ammezie\Paystack\Paystack;
+use Mockery as m;
 use PHPUnit_Framework_TestCase;
 
 class PaystackTest extends PHPUnit_Framework_TestCase
@@ -30,6 +30,6 @@ class PaystackTest extends PHPUnit_Framework_TestCase
         $this->paystack->getCustomers();
 
         // $this->assertTrue(is_array($customers));
-        $this->assertEquals('array', gettype(array($customers)));
+        $this->assertEquals('array', gettype([$customers]));
     }
 }
