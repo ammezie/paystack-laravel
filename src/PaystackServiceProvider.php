@@ -27,7 +27,7 @@ class PaystackServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('paystack-laravel', function ($app) {
-            $config = $app['config']->get('paystack');
+            $config = $app['config']->get('paystack-laravel');
 
             if (!$config) {
                 throw new \RuntimeException('Missing Paystack configuration.');
