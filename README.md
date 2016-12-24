@@ -2,7 +2,7 @@
 
 [![Packagist](https://img.shields.io/packagist/l/ammezie/paystack-laravel.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/ammezie/paystack-laravel.svg?style=flat-square)](https://travis-ci.org/ammezie/paystack-laravel)
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg?style=flat-square)](https://scrutinizer-ci.com/g/ammezie/paystack-laravel)
+[![Quality Score](https://img.shields.io/scrutinizer/g/ammezie/paystack-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/ammezie/paystack-laravel)
 [![StyleCI](https://styleci.io/repos/76888914/shield)](https://styleci.io/repos/76888914)
 [![Packagist](https://img.shields.io/packagist/dt/ammezie/paystack-laravel.svg?style=flat-square)](https://packagist.org/packages/ammezie/paystack-laravel)
 
