@@ -3,7 +3,7 @@
 namespace Ammezie\Paystack;
 
 use Illuminate\Support\ServiceProvider;
-use MAbiola\Paystack\Paystack;
+use MAbiola\Paystack\Paystack as MAbiolaPaystack;
 
 class PaystackServiceProvider extends ServiceProvider
 {
@@ -34,10 +34,10 @@ class PaystackServiceProvider extends ServiceProvider
             }
 
             if ($config['paystack_mode'] == 'test') {
-                return Paystack::make($config['test_secret_key']);
+                return MAbiolaPaystack::make($config['test_secret_key']);
             }
 
-            return Paystack::make($config['live_secret_key']);
+            return MAbiolaPaystack::make($config['live_secret_key']);
         });
     }
 
