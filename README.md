@@ -3,6 +3,7 @@
 [![Packagist](https://img.shields.io/packagist/l/ammezie/paystack-laravel.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/ammezie/paystack-laravel.svg?style=flat-square)](https://travis-ci.org/ammezie/paystack-laravel)
 [![Coverage Status](https://coveralls.io/repos/github/ammezie/paystack-laravel/badge.svg?branch=master)](https://coveralls.io/github/ammezie/paystack-laravel?branch=master)
+[![StyleCI](https://styleci.io/repos/76888914/shield?branch=master)](https://styleci.io/repos/76888914)
 [![Packagist](https://img.shields.io/packagist/dt/ammezie/paystack-laravel.svg?style=flat-square)](https://packagist.org/packages/ammezie/paystack-laravel)
 
 This is a Laravel 5 wrapper for [MalikAbiola Paystack Lib](https://github.com/MalikAbiola/paystack-php-lib).
